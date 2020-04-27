@@ -11,7 +11,10 @@ npm install
 # serve with hot reload at localhost:8080
 npm run dev
 
-# 打包默认项目，默认项目配置在"./config/projectConfig.js"
+# 运行某个项目，项目名称./src/projects 目录下的子目录名字一致
+npm run dev xxx
+
+# 运行默认项目，默认项目配置在"./config/projectConfig.js"
 npm run build
 
 # 打包所有项目
